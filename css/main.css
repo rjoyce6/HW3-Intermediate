@@ -1,0 +1,137 @@
+/*========================================================
+          Sitewide Styles
+==========================================================*/
+/*multiple selector*/
+* {
+  margin: 0 auto;
+  padding: 0;
+}
+
+body {
+  margin: 0 auto;
+  background: #ededed;
+  font-family: 'Lato', sans-serif;
+  color: #696e70;
+}
+
+a {
+  text-decoration: none;
+  color: #696e70;
+}
+
+li {
+  list-style: none;
+  display: inline;
+}
+
+/*========================================================
+          Top Section - Navigation
+========================================================*/
+nav {
+  margin: 0 auto;
+  padding: 25px 2% 10px 2%;
+
+}
+
+.wrapper{
+  height: 50px;
+  width: 98%;
+  border: none;
+  border-bottom: 2px solid grey;
+}
+
+.logo {
+  float: left;
+}
+
+.logo i {
+  color: #ef9daa;
+  font-size: 16px;
+}
+
+.logo span {
+  font-family: 'Cookie', cursive;
+  font-size: 24px;
+  padding-left: 4px;
+}
+
+.sitenav {
+  float: right;
+}
+
+.sitenav li {
+  padding-left: 15px;
+}
+
+.sitenav a {
+  font-size: 14px;
+}
+
+/*========================================================
+          Header Section - Content
+========================================================*/
+header {
+  margin: 0 auto;
+  padding: 20px;
+  width: 96%;
+  text-align: center;
+}
+
+header p {
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+header span:first-child {
+  color: #ef9daa;
+}
+
+header span:nth-child(2){
+  font-size: 12px;
+}
+
+header img {
+  width: 100%;
+  padding: 20px 0;
+}
+
+
+/*========================================================
+          Sections
+========================================================*/
+section {
+  margin: 0 auto;
+  width: 94%;
+}
+
+section h1 {
+  color: #ef9daa;
+  font-family: 'Cookie', cursive;
+  font-size: 18px;
+}
+
+#about {
+  float: left;
+  width: 45%;
+}
+
+#about p{
+  padding-right: 2%;
+}
+
+#work {
+  float: right;
+  width: 45%;
+  padding-right: 2%;
+}
+
+section .photos {
+  clear: both;
+}
+
+
+
+
+/*========================================================
+          Footer
+========================================================*/
